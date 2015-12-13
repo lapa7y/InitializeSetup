@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/DBPoolTest"
+        auth="Container"
+        type="javax.sql.DataSource"
+        username="root"
+        password="1234"
+        driverClassName="com.mysql.jdbc.Driver"
+        factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+        url="jdbc:mysql://localhost:3306/malldb"
+        logintimeout="100"
+        maxActive="500"
+        maxIdle="100"/>
+</Context>
